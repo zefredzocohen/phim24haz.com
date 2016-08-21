@@ -1,0 +1,642 @@
+body
+{
+    background-color: #6f6d72 !important;
+}
+.block-quote
+{
+    display: block;
+    height: 180px;
+    margin-top: 15px;
+    padding: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#media-player-box
+{
+
+
+}
+ol.breadcrumb > li 
+{
+    white-space: nowrap;
+}
+
+.right-box .right-box-content .list-top-movie .list-top-movie-item-thumb{
+    border: 2px solid #999;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 133px;
+}
+.list-top-movie-link:hover .list-top-movie-item-vn
+{
+    color: #DACB46 !important;
+    text-decoration: none;
+}
+.list-top-movie-link .list-top-movie-item-view
+{
+    color: #46E1FF;
+    text-decoration: none;
+}
+.list-top-movie-link:hover .list-top-movie-item-thumb
+{
+    opacity: 0.7;
+}
+
+.facebook-top
+{
+    height: auto !important;
+}
+
+.movie-link
+{
+    display: block;
+}
+.movie-link .thumbn
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #CCC;
+}
+.movie-link:hover .thumbn
+{
+    opacity: 0.8;
+}
+.movie-link:hover .name-vn
+{
+    color: #DACB46 !important;
+}
+
+/*Menu*/
+#mega-menu-1 li .sub
+{
+    padding: 5px !important;
+}
+#mega-menu-1 li .sub li
+{
+    width: 160px !important;
+}
+#mega-menu-1 li .sub-container
+{
+    max-width: 828px !important;
+}
+#mega-menu-1 li
+{
+    cursor: default;
+}
+
+
+.star-profile .profile-item
+{
+    display: block;
+    margin-bottom: 15px;
+}
+.star-profile .profile-item:last-child
+{
+    margin-bottom: 0px;
+}
+.star-profile .profile-link .profile-image
+{
+    display: block;
+    background-size: cover;
+    width: 290px;
+    height: 180px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.star-profile .profile-link:hover .profile-image
+{
+    opacity: 0.7;
+}
+.star-profile .profile-link:hover .star-profile-name
+{
+    color: #DACB46;
+}
+.ad-container
+{
+    height: auto !important;
+}
+.ad-container.banner-top
+{
+    margin-bottom: 10px;
+}
+.ad-container.banner-footer
+{
+    margin-top: 10px;
+}
+.ad-container.watch-banner-1,
+.ad-container.watch-banner-2
+{
+    margin-left: 0 !important;
+}
+
+.pagination > li > a
+{
+    padding: 10px 20px !important;
+}
+
+.profile-detail-short
+{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+.movie-list-noresult
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #EEE;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+
+/* Ở trang xem trailer & xem phim */
+.film-description-box
+{
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 5px 8px;
+    line-height: 26px;
+    border: 1px solid #121212;
+    font-size: 12px;
+    color: #BBB;
+    background: #222;
+    height: 136px !important;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.block-movie-info .movie-l-img
+{
+    position: relative;
+}
+.movie-watch-link-box
+{
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.movie-watch-link-box > .movie-watch-link
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.movie-watch-link-box > .movie-watch-link:hover
+{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.movie-info-watch
+{
+    margin-bottom: 10px;
+}
+
+.list-episode h3
+{
+    font-size: 18px;
+}
+/*Index*/
+.movie-item.m-block
+{
+    display: block;
+}
+/*Movie Info*/
+.movie-title .title-year {
+    font-size: 12px;
+    color: #999;
+}
+
+/*Facebook login*/
+.facebook-login-error-box
+{
+
+}
+.facebook-login-error-header
+{
+    color: #DACB46;
+    text-shadow: 1px 1px 1px #1A1A1A;
+    display: inline-block;
+    font: 30px/40px 'UTMCafetaRegular';
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-bottom: 1px solid #999;
+    display: block;
+}
+.facebook-login-error-body
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #EEE;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+.facebook-login-error-body .error-detail
+{
+    display: block;
+    margin-top: 10px;
+}
+.facebook-login-error-body .error-detail .error-detail-header
+{
+    display: block;
+    font-weight: bold;
+}
+/*Footer*/
+.footer-link-head
+{
+    font: 24px/25px 'UTMCafetaRegular';
+    color: #44E2FF;
+    display: block;
+    padding-bottom: 5px;
+}
+/*Movie Info */
+
+/* Watch Info Box*/
+.watch-info-box .movie-detail
+{
+    margin-left: 168px;
+    width: auto !important;
+}
+.watch-info-box .movie-image
+{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 168px !important;
+}
+/* Ẩn slider khi load trang */
+ul.slider-list
+{
+
+}
+
+/*Like button*/
+.box-rating
+{
+    position: relative;
+}
+.like-at-rating
+{
+    display: inline-block !important;
+    position: absolute !important;
+    top: 8px !important;
+    right: 10px !important;
+    margin: 0 !important;
+    min-width: 0;
+    width: 57px !important;
+    height: 62px;
+    overflow: hidden !important;
+}
+.like-at-content
+{
+    display: inline-block !important;
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+    left: auto !important;
+    margin: 0 !important;
+    min-width: 0;
+    width: 140px !important;
+    height: 20px;
+    overflow: hidden !important;
+}
+.like-at-trailer
+{
+    display: inline-block !important;
+    position: absolute !important;
+    margin: 0 !important;
+    top: 10px !important;
+    right: 10px !important;
+    left: auto !important;
+    width: 140px !important;
+    min-width: 0;
+    overflow: hidden !important;
+}
+.top-movie-list.block-wrapper > .list_carousel
+{
+    max-height: 300px;
+    overflow: hidden;
+}	
+/*Trailer popup*/
+#trailer-player-popup > #trailer-player,
+#trailer-player-popup > #trailer-player_wrapper,
+#trailer-player-popup > #trailer-comment
+{
+    display: inline-block !important;
+}
+#trailer-player-popup > #trailer-comment
+{
+
+}
+#trailer-player-popup > #trailer-comment > .fb-comments
+{
+    background-color: #eee !important;
+    min-height: 100%;
+}
+/*Adnetwork*/
+div[id^=acl_]
+{
+    display: none;
+}
+/*Nội dung không khả dụng*/
+.error-not-available {
+    background-image: url('data:image/jpg;base64,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');
+    font-family: Helvetica, arial, sans-serif;
+    color: #ccc;
+    padding: 30px;
+}
+.error-not-available .alert-container {
+    margin: auto;
+    border: 1px solid #111;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+}
+.error-not-available .alert-inner {
+    padding: 24px 80px;
+}
+.error-not-available .alert-heading {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.error-not-available .alert-subheading {
+    margin-top: 8px;
+    font-size: 20px;
+    line-height: 28px;
+}
+.error-not-available .redirect {
+    margin: 24px auto 0px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+}
+.error-not-available .redirect a {
+    color: #ffb300;
+    text-decoration: none;
+}
+.error-not-available .redirect a:hover {
+    color: #FF7A00;
+    text-decoration: none;
+}
+/*Responsive*/
+@media screen and (max-width: 1280px) {
+    footer > .footer
+    {
+        padding: 20px 0 25px 0 !important;
+    }
+    footer > .footer .footer-logo-film
+    {
+        min-width: 225px !important;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .ad-container.banner-floating
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body > .container,
+    nav > .container
+    {
+        max-width:100% !important;
+    }
+    footer > .footer .footer-link
+    {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .ad-container.banner-top,
+    .ad-container.banner-footer
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    .fb-like
+    {
+        min-width: 0px;
+        display: inline-block;
+    }
+    .ad-container
+    {
+        display: none;
+    }
+    body > .container > .row > .col-lg-12,
+    body > .container > .row > .col-lg-8,
+    body > .container > .row > .col-lg-4,
+    body > .container > .row > #sidebar
+    {
+        padding: 0;
+    }
+    nav #mega-menu-1
+    {
+        height: 89px;
+    }
+    #sidebar .right-box, 
+    #sidebar .right-box .right-box-content
+    {
+        width: 100%;
+    } 
+    #sidebar .right-box .list-top-movie-item-info
+    {
+        position: absolute;
+        right: 15px;
+        margin-left: 150px;
+        text-align: left;
+    }
+    .page-single
+    {
+        width: 100%;
+    }
+    .related-box
+    {
+        width: auto;
+    }
+    .related-box .list-movie .movie-item
+    {
+        width: 30%;
+    }
+    .movie-list-index .list-movie .movie-item:nth-child(3n)
+    {
+        margin-right: 0px !important;
+    }
+    .block-comments *
+    {
+        max-width: 100%;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    /*Request page*/
+    .movie-request-page .block-left,
+    .movie-request-page .block-right
+    {
+        width: auto;
+    }
+    .movie-request-page .block-right
+    {
+        margin-top: 10px;
+    }
+    .header > .container
+    {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .header > .container > .widget_search
+    {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+    #form-search input[name=keyword]
+    {
+        width: 100%;
+    }
+    .right-box .profile-link
+    {
+        display: block;
+    }
+    .right-box .profile-link > .profile-image
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    /*Bỏ ad index cạnh khung update*/
+    .row.movie-update
+    {
+        width: 100%;
+    }
+    .row.movie-update > .col-left
+    {
+        display: none;
+    }
+    .row.movie-update > .col-right
+    {
+        width: 100%;
+        float: none;
+        margin: 5px 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    nav #mega-menu-1
+    {
+        height: 132px;
+    }
+    .movie-info-box .movie-detail
+    {
+        width: 100%;
+        margin-bottom: 10px;
+        float: none;
+        z-index: 2;
+    }
+    .movie-info-box .movie-image,
+    .trailer-info-box  .movie-image
+    {
+        float: none;
+        width: 100%;
+        position: static;
+        z-index: 1;
+    }
+    .watch-info-box .movie-detail,
+    .trailer-info-box .movie-detail
+    {
+        width: 100% !important;
+        margin-bottom: 10px;
+        z-index: 2;
+
+    }
+    .watch-info-box .movie-image,
+    .trailer-info-box .movie-image
+    {
+        width: 100% !important;
+        position: static;
+    }
+
+    /*profile*/
+    .block-profile-info .show-all-movie,
+    .block-profile-info .profile-detail,
+    .block-profile-info .profile-image
+    {
+        width: 100%;
+        float: none;
+        display: block;
+        position: static;
+    }
+    .block-profile-info .show-all-movie
+    {
+        margin: 8px 0;
+    }
+    .block-profile-info .show-all-movie > .btn-show-all-movie
+    {
+        display: block;
+        padding-top: 29px;
+        width: 100%;
+    }
+    .block-profile-info .movie-l-img
+    {
+        position: static !important;
+    }
+    .related-box .list-movie .movie-item
+    {
+        width: 49%;
+    }
+    .movie-list-index
+    {
+        width: 100%;
+    }
+    .movie-list-index .list-movie .movie-item
+    {
+        margin: 10px 0;
+        width: 49%;
+    }
+    .movie-list-index .list-movie .movie-item:nth-child(3n)
+    {
+        margin-right: 0 !important;
+    }
+    .movie-list-index .list-movie .movie-item:nth-child(2n)
+    {
+        margin-left: 2% !important;
+    }
+
+    /*Sidebar: Top film box*/
+    .right-box .list-top-movie-link
+    {
+        display: block;
+    }
+    .right-box .list-top-movie-link .list-top-movie-item-info
+    {
+        position: static !important;
+        float: none !important;
+        margin-left: 110px !important;
+        padding: 0 !important;
+        width: auto !important;
+    }
+
+
+}

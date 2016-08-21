@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+}
+#info_message{
+    display: none;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    position: fixed;
+    z-index: 50000;
+    margin: 0;
+    padding: 0;
+    opacity:0.9;
+}
+.center_auto{
+    margin: 0 auto;
+    width: 950px;
+    padding: 15px 25px;
+}
+#info_message .message_area{
+    float: left; 
+    width: 98%;
+    line-height:34px;
+    z-index: 50000;
+}
+#info_message .message_area span.link_ribbon{
+    color: #999999;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#info_message .button_area{
+    float: left;
+    width: 11px;
+    height: 10px;
+    margin-top: 3px;
+}
+.error_bg{
+    background: #ed3333;;
+}
+.error_bg .message_area{
+    font-size:26px;
+    color: #fff;
+    font-family: "UTMCafetaRegular"!important;
+    text-align:center;
+}
+.error_bg .button_area{
+    background: url('../images/error_close.png') 0 0 no-repeat;    
+    cursor: pointer;
+}
+.error_bg .info_more_descrption{
+
+    -moz-box-shadow: 0 0 5px #b2495b;
+    -webkit-box-shadow: 0 0 5px #b2495b;
+    box-shadow: 0 0 5px #b2495b;
+}
+.succ_bg{
+    background: #1bc03e;
+
+}
+.succ_bg .message_area{
+    font-size:26px;
+    color: #fff;
+    font-family: "UTMCafetaRegular"!important;
+    text-align:center;
+
+}
+.succ_bg .button_area{
+    background: url('../images/succ_close.png') 0 0 no-repeat;    
+    cursor: pointer;
+}
+.info_bg{
+    background: #2490ff;
+}
+.info_bg .message_area{
+    font-size:26px;
+    color: #fff;
+    font-family: "UTMCafetaRegular"!important;
+    text-align:center;
+}
+.info_bg .button_area{
+
+    cursor: pointer;
+}
+.warn_bg{
+    background: url('../images/warn_bg.png') 0 0 repeat-x;
+}
+.warn_bg .message_area{
+    font-size:26px;
+    color: #fff;
+    font-family: "UTMCafetaRegular"!important;
+    text-align:center;
+}
+.warn_bg .button_area{
+    background: #e30025;    
+    cursor: pointer;
+}
+.clearboth{
+    clear: both;
+}
+.info_more_descrption{
+    display: none;
+    width: 950px;
+    height: 300px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    background: #fbfbfb;
+    overflow: auto;
+}
+.succ_bg .info_more_descrption{    
+    -moz-box-shadow: 0 0 5px #56a25e;
+    -webkit-box-shadow: 0 0 5px #56a25e;
+    box-shadow: 0 0 5px #56a25e;
+}
